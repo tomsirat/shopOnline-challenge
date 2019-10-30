@@ -1,3 +1,121 @@
+@keyframes AnimationName {
+    0%{background-position:82% 0%}
+    50%{background-position:19% 100%}
+    100%{background-position:82% 0%}
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    background: linear-gradient(206deg, #725417, #a3762c, #cc9e51, #f9cb7e);
+    background-size: 800% 800%;
+    animation: AnimationName 60s ease infinite;
+    background-image: url("https://www.cafes-coic.com/wp-content/uploads/2015/05/champ-cafe.jpg");
+    background-size: cover;
+}
+
+h1 , h2 {
+    font-family: 'Rock Salt', cursive;
+    font-weight: bolder;
+    color: #725417;
+}
+
+.carousel-caption p {
+    color: white;
+    text-shadow: rgb(0, 0, 0) 10px 0 10px;}
+
+p {
+    color: #725417;
+}
+
+
+header {
+    position: fixed;
+    margin: 0;
+    padding: 1rem;
+    z-index: 999;
+    background-color: #f9cb7e;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+
+}
+
+main {
+    border-radius: 5px;
+    background-color: #f9cb7e;
+}
+
+
 .container-fluid{
     max-width: 1026px;
 }
+
+.test {
+    position: relative;
+}
+
+.introduction {
+    margin-top: 8rem;
+}
+
+footer {
+    margin: 1rem 0 1rem 0;
+    padding: 1rem;
+    position: fixed;
+    margin: 0;
+    z-index: 999;
+    background-color: #f9cb7e;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+section {
+    margin: 1rem 0 1rem 0;
+
+}
+
+.card {
+    padding: 2rem;
+    background-color: #cc9e51;
+}
+
+.card:nth-of-type(0) , .card:nth-of-type(1) , .card:nth-of-type(2) {
+    margin-bottom: 2rem;
+}
+
+.card:nth-of-type(1) , .card:nth-of-type(4) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+img {
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.card-img-top {
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+li {
+    font-size: 1.5rem;
+    padding-left: 5rem;
+}
+
+.card a {
+    background-color: #725417;
+    border: none;
+}
+
+
+
