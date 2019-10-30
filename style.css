@@ -17,6 +17,7 @@ h1 , h2 {
     font-family: 'Rock Salt', cursive;
     font-weight: bolder;
     color: #725417;
+    
 }
 
 .carousel-caption p {
@@ -37,12 +38,15 @@ header {
     left: 0%;
     right: 0%;
     top: 0%;
+    border-bottom: 1px solid #725417;
 
 }
 
 main {
     border-radius: 5px;
     background-color: #f9cb7e;
+    padding:1rem;
+    border:solid 1px #725417;
 }
 
 
@@ -68,6 +72,7 @@ footer {
     left: 0%;
     right: 0%;
     bottom: 0%;
+    border-top: #725417 solid 1px;
 }
 
 section {
@@ -78,6 +83,8 @@ section {
 .card {
     padding: 2rem;
     background-color: #cc9e51;
+    border-radius: 10px;
+    border: solid 1px #725417;
 }
 
 .card:nth-of-type(0) , .card:nth-of-type(1) , .card:nth-of-type(2) {
@@ -88,14 +95,21 @@ section {
     margin-left: 1rem;
     margin-right: 1rem;
 }
-
+.card-title{
+    color: #725417;
+    font-weight: bolder;
+    font-size: 2rem;
+}
 img {
     padding: 1rem;
     border-radius: 20px;
+    
+    background-color:#725417
 }
 
 .card-img-top {
     border-radius: 20px;
+    
 }
 
 h1 {
@@ -103,19 +117,51 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 2rem;
-    font-size: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+    border-bottom: 5px solid #725417;
+    border-top:5px solid #725417;
+    border-radius: 25px;
+    padding-bottom:1rem;
+    padding-top:1rem;
 }
 
 li {
     font-size: 1.5rem;
     padding-left: 5rem;
+    border-right:solid 1px #725417;
 }
-
-.card a {
+button {
     background-color: #725417;
     border: none;
+    color:#cc9e51;
+    width:100%;
+    border-radius:20px;
+}
+
+button:hover{
+    background-color:#a3762c;
+    color:#725417;
 }
 
 
+.cardlink, .cardlink:hover{
+    text-decoration: none;
+}
+.card-body div{
+    text-decoration: none;
+    color:#725417;
+    font-weight: bolder;
+}
 
+@media screen and (max-width: 1023px) {
+    li {
+        
+        padding-left: 0rem;
+    }
+
+    header,footer{
+        border:solid 1px #725417
+}
+  }
