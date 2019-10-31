@@ -1,5 +1,9 @@
 
+
 $(document).ready(function () {
+    $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+   })
     /****TOPVENTE */
     $('.topventeimage1').attr('src', catalog[1].thumb)
     $('.topventename1').html(catalog[1].name)
@@ -16,8 +20,8 @@ $(document).ready(function () {
     $('.topventename3').html(catalog[3].name)
     $('.topventedesc3').html(catalog[3].description)
     $('.topventeprice3').html('Prix: '+catalog[3].price +'€')
-    /********RANDOM PRODUCT HOMEPAGE */
 
+    /********RANDOM PRODUCT HOMEPAGE */
     for (i=0;i<6;i++){
         var rdmNumber = Math.floor(Math.random()*99)
         var divColCat1=$("<div class='col-lg-4 col-md-6 col-sm-12'></div>")

@@ -169,6 +169,17 @@ button:hover{
     border:0.5px solid #725417;
     border-radius:10px;
 }
+
+.modal-backdrop  {
+    display : none
+    }
+
+.contact {
+    font-weight: bolder;
+    font-size: 1.2rem;
+  
+}
+
 @media screen and (max-width: 1023px) {
     li {
         
@@ -179,3 +190,6 @@ button:hover{
         border:solid 1px #725417
 }
   }
+
+
+    
