@@ -157,7 +157,18 @@ button:hover{
     color:#725417;
     font-weight: bolder;
 }
-
+.fa-shopping-cart{
+    position: absolute;
+    top:102%;
+    right:5%;
+    font-size:2rem;
+    z-index: 999;
+    padding:1rem;
+    color:#725417;
+    background-color:#cc9e51;
+    border:0.5px solid #725417;
+    border-radius:10px;
+}
 @media screen and (max-width: 1023px) {
     li {
         

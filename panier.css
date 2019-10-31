@@ -23,11 +23,13 @@ main .row  {
     border-radius: 10px;
 }
 
-main .row div{
+/* main .row div{
     border-right:solid 0.5px #725417;
     align-items: center;
-}
+} */
 
 /* .ok{
     align-items: center;
 } */
+
+
