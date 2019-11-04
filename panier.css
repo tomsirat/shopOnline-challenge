@@ -19,8 +19,9 @@ main{
 main .row  {
     margin: 2rem;
     padding: 2rem;
-    border: 1px solid #725417;
+    border: 1px solid #1e1e24;
     border-radius: 10px;
+    background-color: #c19875;
 }
 
 /* main .row div{

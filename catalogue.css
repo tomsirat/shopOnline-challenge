@@ -6,4 +6,6 @@ h2{
     text-align: center;
     margin-bottom: 3rem;
 }
-
+[type="search"]{
+    background-color:#d1c6ad
+}

@@ -16,16 +16,21 @@ body {
 h1 , h2 {
     font-family: 'Rock Salt', cursive;
     font-weight: bolder;
-    color: #725417;
+    color: #1e1e24;
     
 }
 
 .carousel-caption p {
     color: white;
-    text-shadow: rgb(0, 0, 0) 10px 0 10px;}
+    text-shadow: rgb(0, 0, 0) 10px 0 10px;
+    background-color:#1e1e24;
+    opacity: 0.9;
+    padding:0.5rem;
+    
+}
 
 p {
-    color: #725417;
+    color: #1e1e24;
 }
 
 
@@ -34,7 +39,7 @@ header {
     margin: 0;
     padding: 1rem;
     z-index: 999;
-    background-color: #f9cb7e;
+    background-color: #b47846;
     left: 0%;
     right: 0%;
     top: 0%;
@@ -44,9 +49,10 @@ header {
 
 main {
     border-radius: 5px;
-    background-color: #f9cb7e;
+    background-color: #b47846 ;
     padding:1rem;
     border:solid 1px #725417;
+    margin-bottom: 20rem;
 }
 
 
@@ -68,7 +74,7 @@ footer {
     position: fixed;
     margin: 0;
     z-index: 999;
-    background-color: #f9cb7e;
+    background-color: #b47846;
     left: 0%;
     right: 0%;
     bottom: 0%;
@@ -81,10 +87,10 @@ section {
 }
 
 .card {
-    padding: 2rem;
-    background-color: #cc9e51;
-    border-radius: 10px;
-    border: solid 1px #725417;
+    padding: 1rem;
+    background-color: #c19875;
+    border-radius: 5px;
+    border: solid 1px #1e1e24;
 }
 
 .card:nth-of-type(0) , .card:nth-of-type(1) , .card:nth-of-type(2) {
@@ -96,19 +102,19 @@ section {
     margin-right: 1rem;
 }
 .card-title{
-    color: #725417;
+    color: #1e1e24;
     font-weight: bolder;
     font-size: 2rem;
 }
 img {
-    padding: 1rem;
-    border-radius: 20px;
+    padding: 0.3rem;
+    border-radius: 5px;
     
-    background-color:#725417
+    background-color:#1e1e24
 }
 
 .card-img-top {
-    border-radius: 20px;
+    border-radius: 5px;
     
 }
 
@@ -120,32 +126,36 @@ h2 {
     margin-top: 3rem;
     margin-bottom: 3rem;
     font-size: 1.25rem;
-    border-bottom: 5px solid #725417;
-    border-top:5px solid #725417;
+    border-bottom: 5px solid #1e1e24;
+    border-top:5px solid #1e1e24;
     border-radius: 25px;
     padding-bottom:1rem;
     padding-top:1rem;
+    color:#1e1e24;
+    letter-spacing: 1rem;
+    
 }
 
 li {
     font-size: 1.5rem;
     margin-left: 5rem;
-    border-right:solid 1px #725417;
-    border-left:solid 1px #725417;
+    border-right:solid 3px #1e1e24;
+    border-left:solid 3px #1e1e24;
     border-radius:25px;
     text-align: center;
+    color:#1e1e24
 }
 button {
-    background-color: #725417;
+    background-color: #1e1e24;
     border: none;
-    color:#cc9e51;
+    color:white;
     width:100%;
     border-radius:20px;
 }
 
 button:hover{
-    background-color:#a3762c;
-    color:#725417;
+    background-color:#725417;
+    color:#1e1e24;
 }
 
 
@@ -154,19 +164,19 @@ button:hover{
 }
 .card-body div{
     text-decoration: none;
-    color:#725417;
+    color:#1e1e24;
     font-weight: bolder;
 }
 .fa-shopping-cart{
     position: absolute;
-    top:102%;
+    top:77%;
     right:5%;
-    font-size:2rem;
+    font-size:1.5rem;
     z-index: 999;
     padding:1rem;
-    color:#725417;
+    color:#1e1e24;
     background-color:#cc9e51;
-    border:0.5px solid #725417;
+    border:0.5px solid #1e1e24;
     border-radius:10px;
 }
 
@@ -179,7 +189,29 @@ button:hover{
     font-size: 1.2rem;
   
 }
+.produitlink{
+    display: inline-block;
+    background-color: #1e1e24;
+    border: none;
+    color:#cc9e51;
+    width:100%;
+    border-radius:20px;
+    text-align: center;
+}
+.produitlink:hover{
+    background-color:#a3762c;
+    color:#725417;
+}
 
+.nav-link{
+    font-weight:bolder;
+    text-decoration: none;
+    
+}
+
+.card-body .text-center{
+    font-size:1.5rem;
+}
 @media screen and (max-width: 1023px) {
     li {
         
@@ -191,5 +223,15 @@ button:hover{
 }
   }
 
-
+@media screen and (max-width:766px){
+    .fa-shopping-cart{
+        position: absolute;
+        top:77%;
+        right:5%;
+        font-size:2rem;
+        z-index: 999;
+        padding:0.3rem;
+        
+    }
+}
     
